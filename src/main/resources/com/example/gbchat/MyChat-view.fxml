@@ -11,9 +11,8 @@
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.gbchat.MyChatController">
 
+
     <TextArea fx:id="mainTextArea" VBox.vgrow="ALWAYS" editable="false" ></TextArea>
-
-
 
     <HBox>
         <TextField fx:id="message" editable="true" maxWidth="Infinity" HBox.hgrow="ALWAYS" onAction="#onSendButtonClick"></TextField>

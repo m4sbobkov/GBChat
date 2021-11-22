@@ -11,9 +11,9 @@ public class MyChatController {
     @FXML
     TextArea mainTextArea;
 
+
     @FXML
     TextField message;
-
 
 
     @FXML
