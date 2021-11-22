@@ -15,6 +15,7 @@ public class MyChatController {
     TextField message;
 
 
+
     @FXML
     protected void onSendButtonClick(ActionEvent actionEvent) {
         if (!message.getText().isEmpty()) {

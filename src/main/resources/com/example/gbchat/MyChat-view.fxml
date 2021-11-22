@@ -14,6 +14,7 @@
     <TextArea fx:id="mainTextArea" VBox.vgrow="ALWAYS" editable="false" ></TextArea>
 
 
+
     <HBox>
         <TextField fx:id="message" editable="true" maxWidth="Infinity" HBox.hgrow="ALWAYS" onAction="#onSendButtonClick"></TextField>
         <Button text="Отправить" onAction="#onSendButtonClick"/>
